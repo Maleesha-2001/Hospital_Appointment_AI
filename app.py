@@ -118,3 +118,24 @@ if appointments:
         )
 else:
     st.info("No appointments found.")
+
+# Cancel Appointment
+
+st.subheader("❌ Cancel Appointment")
+
+appointment_id = st.number_input(
+    "Enter Appointment ID to cancel",
+    min_value=1,
+    step=1
+)
+
+if st.button("Cancel Appointment"):
+
+    cursor.execute(
+        "DELETE FROM appointments WHERE id = ?",
+        (appointment_id,)
+    )
+
+    conn.commit()
+
+    st.success("Appointment cancelled successfully! ✅")
