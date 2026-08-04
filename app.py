@@ -139,3 +139,38 @@ if st.button("Cancel Appointment"):
     conn.commit()
 
     st.success("Appointment cancelled successfully! ✅")
+
+# Admin Dashboard
+
+st.subheader("🛠️ Admin Dashboard")
+
+cursor.execute("SELECT COUNT(*) FROM appointments")
+total_appointments = cursor.fetchone()[0]
+
+st.metric(
+    "Total Appointments",
+    total_appointments
+)
+
+
+cursor.execute("SELECT * FROM appointments")
+all_appointments = cursor.fetchall()
+
+
+if all_appointments:
+    st.write("### All Appointment Records")
+
+    for appointment in all_appointments:
+        st.write(
+            f"""
+            🆔 ID: {appointment[0]}  
+            👤 Patient: {appointment[1]}  
+            🏥 Department: {appointment[2]}  
+            👨‍⚕️ Doctor: {appointment[3]}  
+            📅 Date: {appointment[4]}
+            ---
+            """
+        )
+
+else:
+    st.info("No appointment records available.")
