@@ -6,21 +6,21 @@ Hospital Appointment AI Assistant is an intelligent appointment management syste
 
 ## 🚀 Features
 
-- 👤 Patient Appointment Booking
-- 🤖 AI Medical Assistant (Symptom Recommendation)
-- 🏥 Department Selection
-- 👨‍⚕️ Doctor Selection
-- 📅 Appointment Date Management
-- 💾 SQLite Database Integration
-- 📋 Appointment History
-- ❌ Cancel Appointment
-- 🛠️ Admin Dashboard
+* 👤 Patient Appointment Booking
+* 🤖 AI Medical Assistant (Symptom Recommendation)
+* 🏥 Department Selection
+* 👨‍⚕️ Doctor Selection
+* 📅 Appointment Date Management
+* 💾 SQLite Database Integration
+* 📋 Appointment History
+* ❌ Cancel Appointment
+* 🛠️ Admin Dashboard
 
 ## 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- SQLite Database
+* Python
+* Streamlit
+* SQLite Database
 
 ## ⚙️ Installation
 
@@ -33,3 +33,4 @@ This project demonstrates an AI-based healthcare appointment management system u
 ## 👩‍💻 Developer
 
 Maleesha Nethmini
+
