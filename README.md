@@ -34,3 +34,85 @@ This project demonstrates an AI-based healthcare appointment management system u
 
 Maleesha Nethmini
 
+
+
+
+
+\## 🏗️ System Architecture
+
+
+
+The system follows a simple AI-assisted architecture:
+
+
+
+!\[System Architecture](screenshots/architecture.png)
+
+
+
+
+
+\## 📸 Application Screenshots
+
+
+
+\### Appointment Booking Interface
+
+
+
+!\[Home Page](screenshots/home.png)
+
+
+
+
+
+\### AI Medical Assistant
+
+
+
+!\[AI Assistant](screenshots/ai\_assistant.png)
+
+
+
+
+
+\### Admin Dashboard
+
+
+
+!\[Admin Dashboard](screenshots/admin\_dashboard.png)
+
+
+
+
+
+\## 🤖 Agentic AI Components
+
+
+
+The system includes intelligent components to support healthcare appointment management:
+
+
+
+\### 1. Symptom Analysis Agent
+
+\- Analyzes user-entered symptoms
+
+\- Recommends suitable medical departments
+
+
+
+\### 2. Appointment Management Agent
+
+\- Handles appointment booking
+
+\- Stores appointment information
+
+
+
+\### 3. Administration Agent
+
+\- Provides appointment monitoring
+
+\- Displays appointment statistics
+
