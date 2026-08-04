@@ -56,13 +56,7 @@ The system follows a simple AI-assisted architecture:
 
 
 
-\### Appointment Booking Interface
-
-
-
-!\[Home Page](screenshots/home.png)
-
-
+!\[App Page](screenshots/App%20page.png)
 
 
 
@@ -70,9 +64,7 @@ The system follows a simple AI-assisted architecture:
 
 
 
-!\[AI Assistant](screenshots/ai\_assistant.png)
-
-
+!\[AI Medical Assistance](screenshots/AI%20medical%20assistance.png)
 
 
 
@@ -81,10 +73,6 @@ The system follows a simple AI-assisted architecture:
 
 
 !\[Admin Dashboard](screenshots/admin\_dashboard.png)
-
-
-
-
 
 \## 🤖 Agentic AI Components
 
