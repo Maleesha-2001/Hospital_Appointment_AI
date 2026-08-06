@@ -50,21 +50,19 @@ Supported departments include:
 * Allows users to cancel scheduled appointments
 
 ---
-
 # 🖥 Application Screenshots
 
-## Home Page
+## Application Page
 
-![Home Page](screenshots/home.png)
+![Application Page](screenshots/app_page.png)
 
 ## AI Medical Assistant
 
-![AI Assistant](screenshots/ai_assistant.png)
+![AI Medical Assistant](screenshots/ai_medical_assistance.png)
 
-## Appointment Booking
+## Admin Dashboard
 
-![Appointment Booking](screenshots/appointment_booking.png)
-
+![Admin Dashboard](screenshots/admin_dashboard.png)
 ---
 
 # 🛠 Technologies Used
