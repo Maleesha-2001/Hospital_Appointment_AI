@@ -1,10 +1,10 @@
 # 🏥 Hospital Appointment AI Assistant
 
-An AI-based Hospital Appointment Management System developed using **Python and Streamlit**.
+## 📌 Project Description
 
-This system helps patients book appointments, get symptom-based department recommendations, view appointment history, and manage appointments through an interactive web interface.
+Hospital Appointment AI Assistant is an intelligent appointment management system developed using Python and Streamlit. This system helps patients book appointments, get AI-based department recommendations, and manage appointment records.
 
-## 🚀 Live Demo
+## 🚀 Features
 
 * 👤 Patient Appointment Booking
 * 🤖 AI Medical Assistant (Symptom Recommendation)
@@ -56,58 +56,19 @@ https://hospitalappointmentai-jz7wemcggqkhgsbdzyjw5u.streamlit.app/
 
 ## 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- SQLite Database
-- Pandas
+* Python
+* Streamlit
+* SQLite Database
 
 
----
-
-## 📂 Project Structure
+## ⚙️ Installation
 
 
----
-
-## 📸 Application Screenshots
-
-### Appointment Booking Interface
-
-![App Page](screenshots/app_page.png)
-
-### AI Medical Assistant
-
-![AI Medical Assistance](screenshots/ai_medical_assistance.png)
-
-### Admin Dashboard
-
-![Admin Dashboard](screenshots/admin_dashboard.png)
-
----
-
-## 🤖 Agentic AI Components
-
-The system includes intelligent components to support healthcare appointment management.
-
-### 1. Symptom Analysis Agent
-- Analyzes user-entered symptoms
-- Recommends suitable medical departments
-
-### 2. Appointment Management Agent
-- Handles appointment booking
-- Stores appointment information using SQLite database
-
-### 3. Administration Agent
-- Monitors appointment records
-- Displays appointment statistics through the admin dashboard
-
----
+Install required packages:
 
 ## 🎯 Purpose
 
 This project demonstrates an AI-based healthcare appointment management system using intelligent recommendations and database management.
-
----
 
 ## 👩‍💻 Developer
 
