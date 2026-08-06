@@ -1,146 +1,190 @@
 # 🏥 Hospital Appointment AI Assistant
 
-## 📌 Project Description
+An AI-powered hospital appointment management system developed using **Python and Streamlit**. This application helps patients book appointments, receive basic symptom-based department recommendations, and manage healthcare appointments through a simple and user-friendly interface.
 
-Hospital Appointment AI Assistant is an intelligent appointment management system developed using Python and Streamlit. This system helps patients book appointments, get AI-based department recommendations, and manage appointment records.
+## 📌 Project Overview
 
-## 🚀 Features
+The **Hospital Appointment AI Assistant** is designed to simplify the hospital appointment process by providing an interactive platform where patients can enter their details, select departments and doctors, and schedule appointments efficiently.
 
-* 👤 Patient Appointment Booking
-* 🤖 AI Medical Assistant (Symptom Recommendation)
-* 🏥 Department Selection
-* 👨‍⚕️ Doctor Selection
-* 📅 Appointment Date Management
-* 💾 SQLite Database Integration
-* 📋 Appointment History
-* ❌ Cancel Appointment
-* 🛠️ Admin Dashboard
-
-## 🛠️ Technologies Used
-
-* Python
-* Streamlit
-* SQLite Database
-
-Streamlit Cloud URL:
-
-https://hospitalappointmentai-jz7wemcggqkhgsbdzyjw5u.streamlit.app/
-
-
-## 📌 Features
-
-### 👤 Patient Appointment Booking
-- Enter patient details
-- Select medical department
-- Choose doctor
-- Select appointment date
-- Book appointments easily
-
-### 🤖 AI Medical Assistant
-- Accepts patient symptoms
-- Provides recommended medical department based on symptoms
-- Helps users decide the suitable department
-
-### 📋 Appointment History
-- View previously booked appointments
-- Track appointment details
-
-### ❌ Cancel Appointment
-- Cancel appointments using Appointment ID
-
-### 🛠️ Admin Dashboard
-- View total appointments
-- Monitor appointment records
+The system also includes an AI-based medical assistant feature that provides basic recommendations based on user-entered symptoms.
 
 ---
 
-## 🛠️ Technologies Used
+# ✨ Features
+
+## 👤 Patient Appointment Booking
+
+* Enter patient information
+* Select medical department
+* Choose available doctor
+* Select appointment date
+* Store appointment details securely
+
+## 🤖 AI Medical Assistant
+
+* Accepts patient symptoms as input
+* Provides basic department recommendations
+* Helps users identify the appropriate medical service
+
+## 📋 Appointment History
+
+* View previously booked appointments
+* Maintain appointment records using a database
+
+## 🏥 Department Management
+
+Supported departments include:
+
+* Cardiology
+* Neurology
+* Dental
+* General Medicine
+
+## 🛠 Admin Dashboard
+
+* Monitor appointment records
+* Manage hospital appointment information
+
+## ❌ Appointment Cancellation
+
+* Allows users to cancel scheduled appointments
+
+---
+
+# 🖥 Application Screenshots
+
+## Home Page
+
+![Home Page](screenshots/home.png)
+
+## AI Medical Assistant
+
+![AI Assistant](screenshots/ai_assistant.png)
+
+## Appointment Booking
+
+![Appointment Booking](screenshots/appointment_booking.png)
+
+---
+
+# 🛠 Technologies Used
+
+### Programming Language
 
 * Python
+
+### Framework
+
 * Streamlit
-* SQLite Database
 
+### Database
 
-## ⚙️ Installation
+* SQLite
 
+### Libraries
 
-Install required packages:
+* Pandas
+* Datetime
+* SQLite3
 
-## 🎯 Purpose
+### Development Tools
 
-This project demonstrates an AI-based healthcare appointment management system using intelligent recommendations and database management.
+* Visual Studio Code
+* Git & GitHub
 
-## 👩‍💻 Developer
+---
 
-Maleesha Nethmini
+# ⚙️ Installation & Setup
 
+Follow these steps to run the project locally.
 
+## 1. Clone the Repository
 
+```bash
+git clone https://github.com/Maleesha-2001/Hospital_Appointment_AI.git
+```
 
+## 2. Navigate to Project Folder
 
-## 🏗️ System Architecture
+```bash
+cd Hospital_Appointment_AI
+```
 
+## 3. Create Virtual Environment
 
+```bash
+python -m venv venv
+```
 
-The system follows a simple AI-assisted architecture:
+## 4. Activate Virtual Environment
 
+Windows:
 
+```bash
+venv\Scripts\activate
+```
 
-![System Architecture](screenshots/architecture.png)
+## 5. Install Required Packages
 
+```bash
+pip install -r requirements.txt
+```
 
+## 6. Run the Application
 
+```bash
+streamlit run app.py
+```
 
+The application will open in your browser:
 
-## 📸 Application Screenshots
+```
+http://localhost:8501
+```
 
+---
 
+# 📂 Project Structure
 
-![App Page](screenshots/App%20page.png)
+```
+Hospital_Appointment_AI
+│
+├── app.py
+├── requirements.txt
+├── hospital.db
+├── README.md
+│
+└── screenshots
+    ├── home.png
+    ├── ai_assistant.png
+    └── appointment_booking.png
+```
 
+---
 
+# 🚀 Future Improvements
 
-### AI Medical Assistant
+Future versions of this project can include:
 
+* Integration with advanced AI medical chatbots
+* Real-time doctor availability checking
+* Online payment integration
+* Email/SMS appointment notifications
+* Patient login and authentication system
+* Cloud database integration
+* Machine learning based disease prediction
+* Voice-based AI medical assistant
 
+---
 
-![AI Medical Assistance](screenshots/AI%20medical%20assistance.png)
+# 👩‍💻 Developer
 
+**Maleesha Nethmini**
 
+BSc (Hons) Information Technology
 
-### Admin Dashboard
+---
 
+# 📄 License
 
-
-![Admin Dashboard](screenshots/admin\_dashboard.png)
-
-## 🤖 Agentic AI Components
-
-
-
-The system includes intelligent components to support healthcare appointment management:
-
-
-
-### 1. Symptom Analysis Agent
-
-- Analyzes user-entered symptoms
-
-- Recommends suitable medical departments
-
-
-
-### 2. Appointment Management Agent
-
-- Handles appointment booking
-
-- Stores appointment information
-
-
-
-### 3. Administration Agent
-
-- Provides appointment monitoring
-
-- Displays appointment statistics
-
+This project is developed for educational and research purposes.
