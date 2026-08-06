@@ -38,7 +38,7 @@ Maleesha Nethmini
 
 
 
-\## 🏗️ System Architecture
+## 🏗️ System Architecture
 
 
 
@@ -46,35 +46,35 @@ The system follows a simple AI-assisted architecture:
 
 
 
-!\[System Architecture](screenshots/architecture.png)
+![System Architecture](screenshots/architecture.png)
 
 
 
 
 
-\## 📸 Application Screenshots
+## 📸 Application Screenshots
 
 
 
-!\[App Page](screenshots/App%20page.png)
+![App Page](screenshots/App%20page.png)
 
 
 
-\### AI Medical Assistant
+### AI Medical Assistant
 
 
 
-!\[AI Medical Assistance](screenshots/AI%20medical%20assistance.png)
+![AI Medical Assistance](screenshots/AI%20medical%20assistance.png)
 
 
 
-\### Admin Dashboard
+### Admin Dashboard
 
 
 
-!\[Admin Dashboard](screenshots/admin\_dashboard.png)
+![Admin Dashboard](screenshots/admin\_dashboard.png)
 
-\## 🤖 Agentic AI Components
+## 🤖 Agentic AI Components
 
 
 
@@ -82,25 +82,25 @@ The system includes intelligent components to support healthcare appointment man
 
 
 
-\### 1. Symptom Analysis Agent
+### 1. Symptom Analysis Agent
 
-\- Analyzes user-entered symptoms
+- Analyzes user-entered symptoms
 
-\- Recommends suitable medical departments
-
-
-
-\### 2. Appointment Management Agent
-
-\- Handles appointment booking
-
-\- Stores appointment information
+- Recommends suitable medical departments
 
 
 
-\### 3. Administration Agent
+### 2. Appointment Management Agent
 
-\- Provides appointment monitoring
+- Handles appointment booking
 
-\- Displays appointment statistics
+- Stores appointment information
+
+
+
+### 3. Administration Agent
+
+- Provides appointment monitoring
+
+- Displays appointment statistics
 
